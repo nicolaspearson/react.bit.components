@@ -1,0 +1,52 @@
+{
+	"name": "react.bit.components",
+	"version": "0.0.1",
+	"description": "React Bit Components Source Repository",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nicolaspearson/react.bit.components"
+	},
+	"license": "UNLICENSED",
+	"scripts": {
+		"start": "npm run tslint && craco start",
+		"build": "npm run tslint && craco build",
+		"cra-start": "react-scripts start",
+		"cra-build": "react-scripts build",
+		"cra-test": "react-scripts test",
+		"cra-eject": "react-scripts eject",
+		"prettier": "prettier --write \"src/**/*.{ts,tsx,css}\"",
+		"tslint": "tslint --fix -c tslint.json -p tsconfig.json",
+		"test": "jest --verbose",
+		"test:watch": "jest --watchAll --verbose",
+		"test:coverage": "jest --verbose --coverage"
+	},
+	"dependencies": {
+		"react": "~16.8.2",
+		"react-dom": "~16.8.2"
+	},
+	"devDependencies": {
+		"@craco/craco": "~3.4.1",
+		"@types/enzyme": "~3.1.18",
+		"@types/enzyme-adapter-react-16": "~1.0.4",
+		"@types/jest": "~23.3.13",
+		"@types/node": "~11.9.4",
+		"@types/react": "~16.8.3",
+		"@types/react-dom": "~16.8.2",
+		"enzyme": "~3.9.0",
+		"enzyme-adapter-react-16": "~1.9.1",
+		"jest": "~23.6.0",
+		"prettier": "~1.16.4",
+		"react-scripts": "~2.1.5",
+		"ts-jest": "~23.10.5",
+		"tslint": "~5.12.1",
+		"tslint-config-prettier": "~1.18.0",
+		"tslint-react": "~3.6.0",
+		"typescript": "~3.3.3"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	]
+}
