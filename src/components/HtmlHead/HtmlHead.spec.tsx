@@ -10,7 +10,7 @@ describe('HtmlHead component', () => {
 				<HtmlHead>
 					<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 					<title>Hello</title>
-					<meta name="Description" content="About" />
+					<meta name="Description" content="Hello" />
 				</HtmlHead>
 			</div>
 		);
@@ -24,7 +24,7 @@ describe('HtmlHead component', () => {
 			<HtmlHead>
 				<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 				<title>Hello</title>
-				<meta name="Description" content="About" />
+				<meta name="Description" content="Hello" />
 			</HtmlHead>
 		);
 		expect(wrapper).toMatchSnapshot();
@@ -36,7 +36,7 @@ describe('HtmlHead component', () => {
 				<HtmlHead>
 					<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 					<title>Hello</title>
-					<meta name="Description" content="About" />
+					<meta name="Description" content="Hello" />
 				</HtmlHead>
 			</div>
 		);
