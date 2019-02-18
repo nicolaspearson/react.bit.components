@@ -4,6 +4,7 @@
 # testing
 .jest/
 /coverage
+__snapshots__/
 
 # production
 /build
